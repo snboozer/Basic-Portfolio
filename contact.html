@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,47 +13,56 @@
 <body>
     <div class="header">
         <div class="container">
-                <h1 class="Shamera">Shamera</h1>
-                <ul>       
-                    <li><a href= "index.html"> About Me </a></li>
-                    <li><a href= "portfolio.html"> Portfolio </a></li>
-                    <li><a href= "contact.html"> Contact </a></li>
-                </ul>
+            <h1 class="Shamera">Shamera</h1>
+            <ul>
+                <li><a href="index.html"> About Me </a></li>
+                <li><a href="portfolio.html"> Portfolio </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+            </ul>
         </div>
     </div>
-    
-    
+
+
     <div class="main">
-            <h2 class="AboutMe">Contact</h2> 
-            <hr>
-      
-        <p style="line-height: 1;">
-           
-            Name
-            <div class="JS"> John Smith</div>
-            Email
-            <div class= "Emails">example@gmail.com</div>
-            Message
-            <div class="Message"> </div>
-            <br>
-
-            
+        <h2 class="AboutMe">Contact</h2>
+        <hr>
 
 
-        
-        
-            <a href="#" class="button">Submit</a>
-        </p>
+        <div class="input fields">
+            <p style="line-height: 1;">
 
+                <div class="container bg-info">
+                    <form role="form">
+                        <div class="form-group col-6">
+                            <label for="Name">Name</label>
+                            <input class="form-control" id="name" type="text" placeholder="John Smith">
+                        </div>
+                        <br>
+                        <div class="form-group col-6">
+                            <label for="email">Email</label>
+                            <input class="form-control" id="email" type="email" placeholder="example@gmail.com">
+                        </div>
+                        <br>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width:500px"></textarea>
+                          </div>
+    
+                        <button class="button" id="submit" type="submit">Submit</button>
+                    </form>
+                </div>
+
+            </p>
+        </div>
     </div>
 
     <div class="footer">
         <p></p>
-      </div>
-    
+    </div>
 
 
-          
-    
+
+
+
 </body>
+
 </html>
