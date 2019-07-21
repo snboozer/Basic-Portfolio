@@ -178,3 +178,70 @@ li a:hover {
   border-top: 3px solid #4aaaa5;
   text-align: center;
 }
+
+
+@media screen and (max-width: 980px) {
+  .main {
+    width: 80%;
+  }
+
+  .header {
+    width: 80%;
+    padding-right: 80px;
+  }
+
+  .Shamera {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  ul {
+    padding-right: 20%;
+
+  }
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 60%;
+  }
+
+  .header {
+    width: 60%;
+  }
+
+  .Shamera {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  ul {
+    padding-right: 40%;
+
+  }
+ 
+}
+
+@media screen and (max-width: 460px) {
+  .main {
+    width: 40%;
+  }
+
+  .header {
+    
+    width: 40%;
+  }
+
+  .Shamera {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  ul {
+    padding-right: 60%;
+
+  }
+ 
+}
+
