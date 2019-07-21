@@ -105,6 +105,10 @@ li a:hover {
   padding: 8px 8px 8px 8px;
 }
 
+.linked{
+  width: 30%;
+  height: 30%;
+}
 
 .Mudio {
   position: relative;
