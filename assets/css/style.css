@@ -124,6 +124,15 @@ li a:hover {
   width: 50%;
 }
 
+#portBttn{
+  font-family: Arial, Helvetica, sans-serif;
+  font: 12px;
+  text-decoration: none;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 8px 8px 8px 8px;
+}
+
 .image {
   display: block;
   width: 100%;
